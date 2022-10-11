@@ -1,0 +1,560 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.bold-font {
+    font-weight: bold;
+}
+
+.white-font {
+    color: white;
+}
+
+/*
+ start home page
+*/
+
+/*
+logo start
+*/
+.sbc-logo {
+    margin-top: 1%;
+    margin-left: 9%;
+}
+
+/*
+logo end
+*/
+.carousel .carousel-item>img {
+    height: 100%;
+}
+
+#left-right-alignment {
+    padding: 0;
+    width: 32%;
+}
+
+#left-right-alignment-middle {
+    padding: 0;
+    width: 32%;
+    margin: 0 2%;
+}
+
+#height-fix {
+    height: 450px !important;
+
+}
+
+#about-header-image {
+    width: 100%;
+}
+
+#contact-header-image {
+    filter: brightness(40%);
+    width: 100%;
+}
+
+#contact-header-image-mobile {
+    filter: brightness(40%);
+    width: 100%;
+}
+
+.contact-us-text-overlay-mobile {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.contact-text-p-mobile {
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*
+ start carousel mobile adjustments
+*/
+#carausel-adjust {
+    height: 200px !important;
+}
+
+.carousel-adjust-item {
+    min-height: 0 !important;
+}
+
+/*
+ end carousel mobile adjustments
+*/
+/*
+ start carousel  adjustments
+*/
+.card-image-adjust {
+    height: 100% !important;
+}
+
+.card-link-align {
+    text-align: center !important;
+}
+
+/*
+ end carousel  adjustments
+*/
+/*
+ end home page
+*/
+
+/*
+ start about med-large content block defaults for mobile,
+ media queries work for large
+*/
+
+.about-request-social-icon {
+    height: 29px;
+
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex-large-item {
+    flex-basis: 100%;
+}
+
+.flex-small-item {
+    flex-basis: 100%;
+}
+
+.flex-large-item-col {
+    flex-basis: 100%;
+}
+
+.flex-large-item-col-single {
+    flex-basis: 100%;
+}
+
+.flex-medium-item {
+    flex-basis: 100%;
+}
+
+.flex-list-small {
+    flex-basis: 25%;
+}
+
+.about-block-content-align {
+    margin: 20px 0;
+    padding: 5%;
+}
+
+.about-block-content-align-large {
+    padding: 5%;
+    margin-bottom: 20px;
+}
+
+.about-social {}
+
+.about-social-links {
+    filter: grayscale(100%) brightness(70%) contrast(2);
+}
+
+.about-bottom-line {
+    border-bottom: 2px solid black;
+    padding-bottom: 3px;
+}
+
+
+
+/*
+ footer styling override start
+*/
+.footer-style {
+    padding: 1% 30%;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-weight: 500;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5% !important;
+    margin-bottom: 5% !important;
+    padding: 0 15%;
+    margin-left: -25% !important;
+}
+
+.footer-img:hover {
+    opacity: .5;
+}
+
+
+.legal-container {
+    display: inline-block;
+    font-weight: 500;
+}
+
+.legal-container-mobile {
+    display: flex;
+    flex-direction: column;
+}
+
+.legal {
+    margin: 0;
+    font-weight: 420;
+}
+
+.legal-link-mobile {
+    width: 100%;
+    font-weight: 500;
+}
+
+/*
+         About page media queries
+*/
+
+/*
+ end about med-large content block css changes
+*/
+
+/*
+ About page content block styling
+*/
+.text-style {
+    font-size: 15px;
+    line-height: 1.368em;
+    font-family: "helvetica", "arial", "sans";
+}
+
+.centered-padding {
+    padding: 5%;
+}
+
+.paragraph-style-black {
+    color: black;
+    margin-top: 0;
+}
+
+.default-pad {
+    padding: 2%;
+}
+
+
+
+/*
+ About page content block styling
+*/
+/*
+ nav/footer styling override start
+*/
+
+.nav-text-dark-a {
+    color: black;
+}
+
+#nav-text-dark-id {
+    color: black;
+}
+
+.footer-text-dark {
+    color: black;
+}
+
+/*
+ nav/footer styling override end
+*/
+
+/*
+footer styling override end
+*/
+/*
+         About page media queries
+*/
+@media screen and (min-width: 993px) {
+    .flex-col {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .flex-large-item {
+        flex-basis: 59%;
+    }
+
+    .flex-small-item {
+        flex-basis: 39%;
+    }
+
+    .flex-large-item-col {
+        flex-basis: 46.25%;
+    }
+
+    .flex-large-item-col-single {
+        flex-basis: 100%;
+    }
+
+    .flex-medium-item {
+        flex-basis: 50%;
+    }
+
+    .flex-list-small {
+        flex-basis: 25%;
+    }
+
+    .about-block-content-align {
+        margin: 5% 0;
+        padding: 0%;
+    }
+
+    .about-block-content-align-large {
+        margin: 20% 14%;
+        padding: 5%;
+    }
+
+    .sbc-logo {
+        margin-top: 1%;
+        margin-left: 0;
+    }
+
+
+
+    /*
+footer styling override large screen start
+*/
+    .footer-social {
+        margin-left: auto !important;
+    }
+
+
+
+    /*
+footer styling override large screen end
+*/
+}
+
+/*
+Contact page start
+*/
+.contact-padding {
+    padding: 2% 2% 1% 2%;
+}
+
+.contact-flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.contact-flex-align {
+    flex-basis: 90%;
+}
+
+.contact-flex-align>.added-font-p {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.contact-flex>span {
+    order: -1;
+}
+
+.contact-us-text-overlay {
+    position: absolute;
+    top: 37%;
+    left: 35%;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.contact-text-p {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+@media screen and (min-width: 993px) {
+    .contact-flex {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between
+    }
+
+    .contact-flex-align {
+        flex-basis: 44%;
+    }
+
+    .contact-flex>span {
+        order: 0;
+    }
+
+    .contact-us-text-overlay {
+        position: absolute;
+        top: 37%;
+        left: 36.5%;
+        color: white;
+        font-family: 'Lato', sans-serif;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .contact-text-p {
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+    }
+}
+
+
+/*
+Contact page end
+*/
+
+/*
+Text font
+*/
+.added-font {
+    font-family: 'Lato', sans-serif;
+}
+
+.added-font-p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*
+Text font end
+*/
+/*
+request page
+*/
+.request-img {
+    width: 50%;
+    height: 100%;
+}
+
+.request-flex {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.request-flex-item {
+    flex-basis: 48%;
+}
+
+.overlay-bottom-line {
+    border-bottom: 2px solid white;
+    padding-bottom: 3px;
+}
+
+.overlay-text-p {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 10%;
+}
+
+.request-banner-align {
+    left: 25%;
+}
+
+.request-banner-align-mobile {
+    left: 30%;
+    top: 15%;
+}
+
+#request-header-image-mobile {
+    filter: brightness(40%);
+    width: 100%;
+    height: 150px;
+}
+
+.request-span {
+    top: 20%;
+}
+
+.banner-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../assets/vacuum.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-image-contact {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../assets/contact-us-banner.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-image-about {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../assets/about-img.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-image-services {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../assets/services-banner.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-image-text {
+    color: white;
+    position: absolute;
+    text-align: center;
+}
+
+.banner-bottom-line {
+    border-bottom: 2px solid white;
+    padding-bottom: 3px;
+}
+
+@media screen and (min-width: 993px) {
+    .banner-image {
+        height: 300px;
+    }
+
+    .banner-image-contact {
+        height: 300px;
+    }
+
+    .banner-image-about {
+        height: 300px;
+    }
+
+    .banner-image-services {
+        height: 300px;
+    }
+}
+
+/*
+request page end
+*/
